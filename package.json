@@ -1,0 +1,23 @@
+{
+    "author": "Sujal Shah <codesujal@gmail.com>",
+    "name": "bing-search",
+    "description": "A library for the Bing Search API",
+    "tags" : ["search"],
+    "version": "0.0.1",
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/sujal/bing-search.git"
+    },
+    "engines": {
+        "node": ">= 0.4.1"
+    },
+    "dependencies": {},
+    "bugs" : { 
+        "url" : "http://github.com/sujal/bing-search/issues"
+    },
+    "main" : "./index.js",
+    "licenses" : [{
+        "type" : "MIT",
+        "url" : "http://github.com/sujal/bing-search/raw/master/LICENSE"
+    }]
+}
