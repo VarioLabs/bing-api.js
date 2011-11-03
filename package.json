@@ -2,7 +2,7 @@
     "author": "Sujal Shah <sujal@variolabs.com>",
     "name": "bing-api",
     "description": "A library for the Bing Search APIs",
-    "tags" : ["search"],
+    "tags" : ["search", "bing"],
     "version": "0.0.1",
     "repository": {
         "type": "git",
