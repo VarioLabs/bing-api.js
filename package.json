@@ -20,7 +20,9 @@
         "url" : "http://github.com/sujal/bing-search/issues"
     },
     "main" : "./index.js",
-    "scripts" : "./test/search-client-test.js",
+    "scripts" : {
+      "test": "node ./test/search-client-test.js"
+    },
     "licenses" : [{
         "type" : "MIT",
         "url" : "http://github.com/sujal/bing-search/raw/master/LICENSE"
