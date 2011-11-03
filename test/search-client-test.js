@@ -6,12 +6,11 @@ client.search("variolabs", function(error, response, data) {
   
   if (!error && response.statusCode == 200)
   {
-    console.log(data);
     if (data === null)
     {
       console.log("ERROR executing search: "+error);
     } else {
-      console.log("SUCCESS: " + data.SearchResponse.Web.Results.length);
+      console.log("SUCCESS: Found " + data.SearchResponse.Web.Results.length + " results");
     }
     
   } else {
