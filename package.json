@@ -13,11 +13,14 @@
     },
     "dependencies": {
       "underscore": ">=1.2.0"
+      , "request": ">=2.1.0"
+      , "querystring": ">=0.0.1"
     },
     "bugs" : { 
         "url" : "http://github.com/sujal/bing-search/issues"
     },
     "main" : "./index.js",
+    "scripts" : "./test/search-client-test.js",
     "licenses" : [{
         "type" : "MIT",
         "url" : "http://github.com/sujal/bing-search/raw/master/LICENSE"

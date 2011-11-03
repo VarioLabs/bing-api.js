@@ -1,1 +1,1 @@
-module.exports = require('./lib/bing');
+module.exports = require('./lib/bing-search');
