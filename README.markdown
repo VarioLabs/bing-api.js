@@ -24,61 +24,41 @@ Usage:
 ## Supported options:
 
     /*
-     * output format (json or XML - defaults to json)
-     * Required
+     * Should be a space delimited list of valid bing sources:
+     * Image, News, PhoneBook, RelatedSearch, Spell, Translation,
+     * Video, Web
      */
-    format: "json"
-    
+    sourceList: "web"
     /*
-     * pretty print json output
+     * App ID from Bing Dev Portal: http://www.bing.com/toolbox/bingdeveloper/
      */
-    , prettyJson: false
-    
-    /*
-     * use SSL
-     * defaults to false
-     */
-    , useSSL: false
-    
-    /*
-     * Set strict SSL mode
-     */
-    , strictSSL: false
+    , appId: null
 
     /*
      * Base URL for API, includes the question mark
      */
-    , baseUrl: "http://api.duckduckgo.com/?"
-    
-    /*
-     * SSL Base URL for API, includes the question mark
-     */
-    , sslBaseUrl: "https://api.duckduckgo.com/?"
+    , baseUrl: "http://api.bing.net/json.aspx?"
 
     /*
-     * Skip redirect for bang commands (defaults to true because 
-     * it doesn't make sense for an API client like this to redirect - 
-     * not really sure it should be an option)
+     * API Version
      */
-    , noRedirect: true
+    , bingApiVersion: "2.2"
 
     /*
-     * Remove HTML from text
-     * defaults to false
+     * Bing API Market
      */
-    , noHtml: false
+    , bingApiMarket: "en-US"
 
     /*
-     * Skip Disambiguation records in the response
-     * Defaults to false
+     * Limit responses to this amount
      */
-    , skipDisambig: false
-    
+    , limit: 10
+
     /*
      * User Agent
      *
      */
-    , userAgent: "DDG Search Client for Node.js ("+SearchClient.version+")"
+    , userAgent: "Bing Search Client for Node.js ("+SearchClient.version+")"
     
 ## License
 
