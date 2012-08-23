@@ -1,3 +1,4 @@
+[![build status](https://secure.travis-ci.org/VarioLabs/bing-api.js.png)](http://travis-ci.org/VarioLabs/bing-api.js)
 # Bing API Wrapper for Node.js
 
 A very simple wrapper for the Bing API (http://www.bing.com/toolbox/bingdeveloper/). Just simplifies an edge case error check and presents a simple way to set & reuse options.
